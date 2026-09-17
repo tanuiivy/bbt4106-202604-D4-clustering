@@ -10,9 +10,9 @@ Group D4 submission for the K-means clustering lab.
 
 | Details | Comment |
 |---|---|
-| **Student ID** | |
-| **Name** | |
-| **What part of the lab did you personally contribute to (provide a link to the branch(es)), and what did you learn from it?** | |
+| **Student ID** | 168825 |
+| **Name** | Wanyingi Shirleen Muthoni |
+| **What part of the lab did you personally contribute to (provide a link to the branch(es)), and what did you learn from it?** | I did Section 1 and 2: Data loading, EDA, and Feature Justification.<br>I learnt how to justify feature inclusion, exclusion and feature reserving. Excluding farmer_id was done because it is a unique identifier hence it is not meaningful for clustering. crop_type was reserved to be used for profiling after clusters are formed. I also learnt how to interpret visualizations for example histograms and boxplots to identify skewness and outliers.<br>Link to branch: https://github.com/tanuiivy/bbt4106-202604-D4-clustering/tree/feature/eda-shirleen|
 
 ### Member 2
 
