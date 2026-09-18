@@ -18,9 +18,11 @@ Group D4 submission for the K-means clustering lab.
 
 | Details | Comment |
 |---|---|
-| **Student ID** | |
-| **Name** | |
-| **What part of the lab did you personally contribute to (provide a link to the branch(es)), and what did you learn from it?** | |
+| **Student ID** | 166076 |
+| **Name** | Angela Faith |
+| **What part of the lab did you personally contribute to (provide a link to the branch(es)), and what did you learn from it?** | I did section 2 : correlation and redundancy feature check and 3 : preprocessing pipeline (scaling and handling missing data). I learned the reasoning behind and how to identify features that might mislead an algorithm and possible ways of handling them. I also learned how to identify and categorise types of missingness in data and how to address each unique situation. Lastly I also learned the importance of scaling data and how to do it.
+
+Link to branch: https://github.com/tanuiivy/bbt4106-202604-D4-clustering/edit/feature/preprocessing-Angela
 
 ### Member 3
 
