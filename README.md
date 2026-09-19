@@ -42,9 +42,9 @@ Group D4 submission for the K-means clustering lab.
 
 | Details | Comment |
 |---|---|
-| **Student ID** | |
-| **Name** | |
-| **What part of the lab did you personally contribute to (provide a link to the branch(es)), and what did you learn from it?** | |
+| **Student ID** | 153130 |
+| **Name** |Ivy Tanui |
+| **What part of the lab did you personally contribute to (provide a link to the branch(es)), and what did you learn from it?** | Completed sections 9–11: cluster profiling, model persistence, and the final academic/business report. For profiling, I used group-wise means and a crop_type cross-tabulation to name and interpret all five clusters, then wrote the report in the format of the class demo but with our own numbers and findings. For persistence, I saved the fitted scaler and clustering model together and demonstrated a prediction on a new manually-built farmer. I learned that k = 2 scored better on every validity metric we tested, but we chose k = 5 anyway because it reveals structure a two-cluster split completely hides, which showed me the "best" statistical score isn't always the most useful one for the business question. <br>Link to branch: https://github.com/tanuiivy/bbt4106-202604-D4-clustering/tree/feature/profiling-ivy|
 
 
 ## Video demonstration
