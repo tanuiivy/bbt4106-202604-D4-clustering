@@ -34,9 +34,9 @@ Group D4 submission for the K-means clustering lab.
 
 | Details | Comment |
 |---|---|
-| **Student ID** | |
-| **Name** | |
-| **What part of the lab did you personally contribute to (provide a link to the branch(es)), and what did you learn from it?** | |
+| **Student ID** | 164430|
+| **Name** |Maxwell Gitonga |
+| **What part of the lab did you personally contribute to (provide a link to the branch(es)), and what did you learn from it?** |Completed sections 7 and 8: justifying the final chosen k and the robustness check. All three validity metrics (silhouette, Davies-Bouldin, Calinski-Harabasz) mathematically favored k=2, but profiling showed k=2 only separated farmers by farm size — a split already visible without clustering. k=5 preserved that same large-scale farming cluster while splitting smallholders into four distinct, actionable profiles differing in income per acre, market access, and experience, so I chose k=5 over the statistically "best" k=2 for business interpretability. I then confirmed the k=5 solution was robust to a different random seed (Adjusted Rand Index = 0.98) and to an alternative scaling method, MinMaxScaler instead of StandardScaler (ARI = 0.84). I learned that the statistically top-scoring solution isn't automatically the right one to report — validity metrics need to be weighed against whether the resulting clusters are actually useful for the business question being asked.<br>Link to branch: https://github.com/tanuiivy/bbt4106-202604-D4-clustering/tree/feature/robustness-maxwell |
 
 ### Member 5
 
